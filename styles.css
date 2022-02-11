@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.barra {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/2;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    color: white;
+    background-color: #212121;
+    padding-top: 30px;
+
+}
+
+.navegacion {
+    display: flex;
+    flex-direction: row;
+    background-color: #212121;
+    margin-right: 100px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.recomen {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+
+
+
+
+.videos {
+    display: flex;
+    flex-direction: row;
+   ;
+}
+
+#vidieo1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    
+}
+
+#video2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+.textov {
+    display: flex;
+    flex-direction: row;
+}
+
+#knal {
+    width: 30px;
+    height: 30px;
+}
+
+#knal2 {
+    width: 50px;
+    height: 50px;
+}
+
+.sideb {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgs {
+    width: 50px;
+    height: 40px;
+   
+}
+
+#busq {
+    background-color: black;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2 / 13;
+
+}
+
+.categoria {
+    margin-right: 10px;
+    margin-left: 100px;
+}
+
